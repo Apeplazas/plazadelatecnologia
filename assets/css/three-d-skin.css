@@ -1,0 +1,119 @@
+/******************************************************\
+*
+*  3D skin
+*
+*    1. Arrows(direction) navigation
+*    2. Paging navigation
+*
+\******************************************************/
+
+
+
+/******************************************************\
+*
+*  1. Arrows (direction) navigation
+*
+\******************************************************/
+.touchcarousel.three-d .arrow-icon {
+	top:120px;
+	background-repeat: no-repeat;
+	margin-top: 0;
+}
+.right{background:url('../graphics/nextSlider.png') 40px 0 no-repeat;}
+.left{background:url('../graphics/prevSlider.png') no-repeat;}
+
+.touchcarousel.three-d .arrow-holder {
+	width:65px;
+	height:37px;	
+	-moz-opacity: 0.8;	
+	-webkit-opacity: 0.8;	
+	opacity: 0.8;	
+}
+.touchcarousel.three-d .arrow-holder.left {
+	left:-301px;
+}
+.touchcarousel.three-d .arrow-holder.right {	
+	right:-36px;
+}
+
+.touchcarousel.three-d .arrow-icon.left {
+	left: -800px;
+	top:120px;
+	background-position: -8px -14px;
+}
+.touchcarousel.three-d .arrow-icon.right {
+	right:-35px;
+	background-position: -173px -14px;
+	top:120px;
+}
+
+.touchcarousel.three-d .arrow-holder.disabled .arrow-icon.left {
+	background-position: -43px -14px;
+}
+.touchcarousel.three-d .arrow-holder.disabled .arrow-icon.right {
+	background-position: -138px -14px;
+}
+.touchcarousel.three-d .arrow-holder:hover {
+	-moz-opacity: 1;	
+	-webkit-opacity: 1;	
+	opacity: 1;	
+}
+.touchcarousel.three-d .arrow-holder:active {
+	-moz-opacity: 0.7;	
+	-webkit-opacity: 0.7;	
+	opacity: 0.7;	
+}
+.touchcarousel.three-d .arrow-holder.disabled {
+	-moz-opacity: 1;	
+	-webkit-opacity: 1;	
+	opacity: 1;	
+}
+
+/******************************************************\
+*
+*  2. Paging navigation
+*
+\******************************************************/
+
+.touchcarousel.three-d .tc-paging-container {		
+	width: auto;
+	float: none;
+	
+	right:0;
+	
+	margin-top: 0;	
+	bottom: -25px;
+}
+.touchcarousel.three-d .tc-paging-centerer {
+	float: none;
+	position: relative;
+	left: 0;
+}
+.touchcarousel.three-d .tc-paging-centerer-inside {	
+	position: relative;
+	left: 0;
+	float: none;	
+}
+.touchcarousel.three-d .tc-paging-item {
+	background: url('../graphics/sprite-carrousel.png') no-repeat -95px -4px;
+	
+	width: 16px;
+	height: 16px;	
+	
+	-moz-opacity: 0.8;	
+	-webkit-opacity: 0.8;	
+	opacity: 0.8;	
+}
+.touchcarousel.three-d .tc-paging-item.current {	
+	background: url('../graphics/sprite-carrousel.png') no-repeat -95px -22px;
+}
+.touchcarousel.three-d .tc-paging-item:hover {		
+	-moz-opacity: 1;	
+	-webkit-opacity: 1;	
+	opacity: 1;		
+}
+
+
+
+
+

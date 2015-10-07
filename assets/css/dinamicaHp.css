@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/*---------------- gana con hp  ------------------*/
+#hp{float:left; width:100%; background:url(../graphics/bck-hp.png) left top repeat-x;}
+#add {float:left; width:100%; background-color:#eee; height:99px;}
+#addTwo{float:left; width:100%; background:url(../graphics/hp-promocion.jpg) center no-repeat; height:600px}
+#add img{float:left; margin:25px 0 0 25px}
+#navHp img{float:left; margin-left:25px}
+.menuHp a{float:left; color:#fff; font-weight:700; font-size:.9em; font-family:HPSimplified,Arial; padding:30px 0px 0 20px; letter-spacing:-.5px}
+#contHp{float:left; margin-left:25px;}
+#navHp{float:left; width:100%; background-color:#0096D6; height:72px}
+#logoHp{float:left; margin:10px 0 0 0}
+#contHp{float:left; width:980px; margin-left:25px; padding:25px 0}
+#regHp{float:left; width:650px; border-right:3px solid #ccc; margin-right:25px}
+#logHp{float:left; width:280px;}
+#subHp{border:none; float:left; margin:15px 0 0 210px;}
+#regHp h1{font-size:1.4em; font-weight:700; float:left; width:100%; padding:20px 0}
+#regHp h2{font-size:1.2em; font-weight:700; float:left; width:100%; padding:20px 0}
+#regHp fieldset{float:left; width:100%; padding:13px 0; position:relative}
+#regHp label{font-size:.9em; float:left; font-weight:200; width:200px; text-align:right; padding-right:10px; padding-top:8px;}
+.smaInp{float:left; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; background-color:#eee; width:300px; border:1px solid #ccc; height:32px; padding:0 10px}
+#logHp span{float:left; width:100%; padding-bottom:15px}
+#logHp label{float:left; width:100%; font-weight:200; padding-bottom:5px;}
+#logHp fieldset{float:left; width:100%; padding:10px 0 0 15px}
+.selectOne{border:none; -webkit-appearance:none; -moz-appearance:none; cursor:pointer;padding:10px 20px 10px 15px; background:url(../graphics/triangulo.png) 95% 12px no-repeat #eee; font-size:.8em; height:35px; color:#777; border:1px solid #ccc; width:200px;}
+.selectTwo{border:none; -webkit-appearance:none; -moz-appearance:none; cursor:pointer;padding:10px 20px 10px 15px; background:url(../graphics/triangulo.png) 98% 10px no-repeat #eee; font-size:.8em; height:35px; color:#777; border:1px solid #ccc; width:320px;}
+#preg{float:left; width:210px; margin-left:210px;}
+#preg span{float:left; width:100%; font-size:.7em; text-transform:uppercase; padding:15px 0 3px 5px; color:#999}
+#ema img, #regHp i img{float:left;}
+#ema, #regHp i{position:absolute; top:-12px; text-transform:uppercase; left:210px;}
+#ema p, #regHp i p{float:left; font-weight:700; padding-top:5px; font-size:.7em; color:#999}
+#enviarHp{background:url(../graphics/enviarHp.png) left top no-repeat; float:left; width:120px; border:none; height:41px; text-indent:-9999px; margin-top:8px; cursor:pointer}
+#enviarHp:hover, #enviarHpTicket:hover{background:url(../graphics/enviarHp.png) -120px top no-repeat; float:left; width:120px; }
+#terminosHp, #premiosHP{float:left; width:970px; padding:25px 0 0 25px}
+#terminosHp ul{float:left; width:100%; padding:10px 0;}
+#terminosHp ul li{float:left; width:100%; padding:2px 0}
+#terminosHp h1{font-size:1.4em; float: left; width:100%;}
+#terminosHp h2{float:left; width:100%; font-weight:200; margin-top:4px}
+#terminosHp h3{float:left; width:100%; margin-top:25px;}
+#terminosHp p{float:left; width:100%; padding:0 0 5px; font-size:.9em;}
+#terminosHp strong{float:left; width:100% font-weight:700; margin-top:20px; font-size:1.1em}
+#premiosHP ul{float:left; margin-top:10px; font-size:.9em}
+#premiosHP ul li{float:left; width:100%; padding:8px 0}
+#premiosHP span{float:left;}
+#premiosHP span img{margin-right:20px; width:500px}
+#premiosHP strong{display:block; margin-bottom:10px; font-size:1.4em}
+#premiosHP p{font-size:.9em}
+#premiosHP h2{float:left; width:100%; font-size:1.4em; margin-top:20px;}
+.wrapDes{float:left; width:350px;}
+
+#addTicket{float:left; width:900px; background-color:#fff; border:1px solid #eee; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:20px 30px; margin-top:30px;}
+#addTicket fieldset{float:left; position:relative}
+#cam{width:80px; height:150px; margin-right:20px; border-right:1px solid #eee; padding-top:65px}
+#addTicket fieldset label{float:left; font-size:.7em; color:#777; text-align:right; padding-right:10px; padding-top:9px; text-transform:uppercase}
+.inS{float:left; border-radius:5px; -moz-border-radius:5pxs; -webkit-border-radius:5px; border:1px solid #ccc; height:28px;}
+.inD{float:left; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; border:1px solid #ccc; height:28px; width:180px; padding:0 10px}
+.select-wrapper-two{background: url(../graphics/agregarTicketHp.png) no-repeat; background-size: cover; display: block; position: relative; width:52px; height:47px; cursor: pointer;}
+.select-wrapper-two:hover{cursor:pointer;}
+#image_src_two{width:52px; height:47px; opacity: 0; filter: alpha(opacity=0); /* IE 5-7 */ cursor: pointer;}
+.containerStwo{float:left; width:94%; padding-left:13px}
+#addFot{font-size:.7em; text-transform:uppercase; font-style:normal; position:absolute; left:-28px; top:120px; text-align:center; color:#999}
+#dig{float:left; width:100%; font-size:.7em; text-transform:uppercase; font-style:normal; color:#999; margin:9px 0 0 155px;}
+#enviarHpTicket{background:url(../graphics/enviarHp.png) left top no-repeat; float:left; width:120px; border:none; height:41px; text-indent:-9999px; cursor:pointer; margin:10px 0 0 152px;}
+#enviarPro{background:url(../graphics/finalizarHP.png) left top no-repeat; float:left; width:120px; border:none; height:41px; text-indent:-9999px; cursor:pointer; margin:10px 0 0 25px;}
+#enviarPro:hover{background:url(../graphics/finalizarHP.png) -120px top no-repeat; float:left; width:120px; }
+.mt5{margin-top:5px}
+#contForm{float:left; width:450px; background-color:#eee; border:1px solid #ccc; padding:10px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+#contForm fieldset{float:left; width:500px; padding:4px 0}
+#contForm fieldset label{float:left; width:140px; text-align:right; padding-right:10px;}
+.noInfo{float:left; font-size:1.2em; font-weight:200; width:100%; padding:10px 0; margin-top:35px;}
+#wrapHD{float:left; margin-left:25px;}
+#proT{float:left; padding:35px 0; width:100%}
+#proT fieldset{float:left; padding:4px 0; margin-right:20px;}
+#proT label{display:block; width:100%; padding:0 0 5px 10px; font-size:.9em; font-style:italic; color:#999}
+.selectOneSma{border:none; -webkit-appearance:none; -moz-appearance:none; cursor:pointer;padding:0 20px 0 15px; background:url(../graphics/triangulo.png) 90% 9px no-repeat #eee; font-size:.8em; height:30px; color:#777; border:1px solid #ccc; width:60px;}
+.selectOneTwo{border:none; -webkit-appearance:none; -moz-appearance:none; cursor:pointer;padding:0 20px 0 15px; background:url(../graphics/triangulo.png) 90% 9px no-repeat #eee; font-size:.8em; height:30px; color:#777; border:1px solid #ccc; width:120px;}
+.xsmaInp{float:left; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; background-color:#eee; width:100px; border:1px solid #ccc; height:28px; padding:0 10px}
+#botonEnv{float:left; width:100%}
+.addButton{float:left; margin-top:18px; cursor:pointer;}
+.addButtonTwo{float:left; cursor:pointer;}
+.line{float:left; width:100%; position:relative; margin-left:25px;}
+.pt10{padding-top:10px;}
+.removeThis{position:absolute; left:-27px; top:2px; z-index:9999}
+#tableTicket{float:left; width:962px; margin-top:35px;}
+#head{background:url(../graphics/bck-darkGray.png) repeat-x left #eee;color:#555;font-weight:700;float:left;width:99.8%; border:1px solid #aaa;border-bottom:none;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px}
+#head strong{padding:10px 15px; font-size:1.2em; font-weight:700; float:left}
+.bcGray{background-color:#eee;}
+.bcGray strong{font-weight:700; font-size:1.4em;}
+#wrapText{float:left; width:970px; margin-top:30px;}
+#wrapText strong{float:left; width:100%; margin-bottom:10px; font-size:1.1em; font-weight:700}
+#wrapText ul{font-size:.9em; float:left; width:100%;}
+#wrapText ul li{float:left; width:90%; padding:10px 5px;}
+#regTwoHP{width:268px; background:url(../graphics/regis.jpg) left top no-repeat; height:60px; position:absolute; top:349px; left:55%; margin-left:-134px;}
+#regTwoHP:hover{background:url(../graphics/regis.jpg) -268px top no-repeat;}
+#accesoHP{float:right; margin:15px 30px 0 0;}
+

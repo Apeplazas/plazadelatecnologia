@@ -1,0 +1,22 @@
+
+RewriteOptions inherit
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^system.*
+RewriteRule ^(.*)$ localhost/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+#Redirect http://plazadelatecnologia.com to http://www.plazadelatecnologia.com
+RewriteCond %{HTTP_HOST} ^plazadelatecnologia\.com$ [NC]
+RewriteRule ^(.*) http://www.plazadelatecnologia.com/$1 [L,R=301]
+redirect 301 /zonadejuegos  http://zonadejuegos.plazadelatecnologia.com
+redirect 301 /index.php/zonadejuegos  http://zonadejuegos.plazadelatecnologia.com
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^ofertas\/computo$ "http\:\/\/www\.plazadelatecnologia\.com\/computo\/ofertas" [R=301,L]
+

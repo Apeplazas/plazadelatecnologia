@@ -1,0 +1,2 @@
+<a id="brochureBan" title="Descarga nuestro brochure de ofertas" href="<?=base_url()?>folletos"><img class="100Pc" src="<?=base_url()?>assets/graphics/brochure-ofertas.png" alt="Brochure de Ofertas"></a>
+<a id="bannerEvento" href="<?=base_url();?>noticias" target="_blank" title="Eventos y Noticias"><img src="<?=base_url()?>assets/graphics/eventos-noticias.png" alt="Box Banner Eventos" /></a>

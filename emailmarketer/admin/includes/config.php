@@ -1,0 +1,15 @@
+<?php
+
+define('SENDSTUDIO_DATABASE_TYPE', 'mysql');
+define('SENDSTUDIO_DATABASE_USER', 'plazadel_root');
+define('SENDSTUDIO_DATABASE_PASS', 'web@peplazas411500');
+define('SENDSTUDIO_DATABASE_HOST', '198.154.246.178');
+define('SENDSTUDIO_DATABASE_NAME', 'plazadel_bd');
+define('SENDSTUDIO_DATABASE_UTF8PATCH', '1');
+define('SENDSTUDIO_TABLEPREFIX', 'marketing_');
+define('SENDSTUDIO_LICENSEKEY', 'IEM-NDcxMjMxYzI1NWJlMGYyMzZmMGRmMzVmZjk3NmY0ODgtMWUyMzg1MjgyMGI5MTU0MzE2YzdjMDZlMmI3YmEwNTEtLXY8MzZhMWFlOTFiYzNhNjBiZT4tMS0wLTAtYgojOjowOjEwMDozMDo5OTk6MDo0ZGY5ZTVkMw==');
+define('SENDSTUDIO_APPLICATION_URL', 'http://www.plazadelatecnologia.com/emailmarketer');
+define('SENDSTUDIO_IS_SETUP', 1);
+define('SENDSTUDIO_DEFAULTCHARSET', 'UTF-8');
+
+

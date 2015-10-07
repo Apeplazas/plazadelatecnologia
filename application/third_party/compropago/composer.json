@@ -1,0 +1,5 @@
+{
+    "require": {
+      "hechoendrupal/compropago-api": "~1.0"
+    }
+}

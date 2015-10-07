@@ -1,0 +1,75 @@
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+/*HEADER*/
+#header{
+	width: 800px;
+	position:relative; 
+	height: 162px;
+	background-image:url(header.jpg);
+	background-repeat:no-repeat;
+}
+/*COMPANY NAME IN HEADER*/
+#companyname {
+	position:absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top:50px;
+	margin-left:40px;
+	left: 0px;
+	top: 0px;
+}
+
+/*CONTENT*/
+#content{
+	width: 800px;
+}
+#contenttext{
+	float:center;
+	width: 500px;
+}
+
+.content_top{
+	margin-top: 10px;
+	width: 600px;
+	height: 20px;
+	float:center;
+	background-image:url(img.jpg);
+	background-repeat:no-repeat;
+}
+/*FOOTER*/
+.footer{
+	width: 779px;
+	height: 32px;
+	background-image:url(bg_footer.gif);
+	background-repeat:no-repeat;
+	clear:both;
+}
+
+/*TEXT STYLES*/
+.body_text {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.input_text {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.subtitle_gray {	font-family:Verdana, Arial, Helvetica, sans-serif;	
+	font-weight: bold;
+	font-size: 14px;
+	color: #999999;
+}
+.subtitle_black {	font-family:Verdana, Arial, Helvetica, sans-serif;	
+	font-weight: bold;
+	font-size: 15px;
+	color: #000000;
+}
+.title_blue {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 26px; color: #7DA5E0; }

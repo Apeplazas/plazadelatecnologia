@@ -1,0 +1,167 @@
+@charset UTF-8;
+/*---------------- reset  ------------------*/article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:700}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:\201C \201D \2018 \2019}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+/*---------------- reset  ------------------*/html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,fieldset,form,label,legend,caption,.filters ul li p,ul,figure{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;line-height:normal;font-size:100%;font-weight:400}
+html{overflow-x:hidden}
+img{color:#f4f4f2}
+blockquote,q{quotes:none}
+ol,ul,li{list-style:none;font-weight:lighter}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+em{font-style:normal}
+p{line-height:1.6em;font-weight:lighter}
+a{text-decoration:none;color:#333}
+/*---------------- Generals  ------------------*/.clear{clear:both}
+.tcenter{text-align:center}
+.dnone{display:none}
+.dblock{display:block}
+.uppercase{text-transform:uppercase}
+.capital{text-transform:capitalize}
+b{font-weight:400}
+.none{display:none}
+.btw{border-top:1px solid #fff;padding-top:10px}
+.pt10{padding-top:10px}
+.fleft,.tools{float:left}
+.fleft100,.block,#sinContent{float:left;width:100%}
+.fright{float:right}
+strong{font-weight:400}
+.fwlight{font-weight:200}
+.W100{width:100%}
+.pfixed{position:fixed;top:-5px;z-index:9999}
+code{display:block;background:#ddd;border:solid 2px #666;line-height:15px}
+.tright{text-align:right}
+.bckDark{padding:10px}
+.mr20{margin-right:20px}
+.mt20{margin-top:20px}
+.mt10{margin-top:10px}
+.mb20{margin-bottom:20px}
+.mt45{margin-top:35px}
+.mt5{margin-top:5px}
+.mtb10{margin:10px 0}
+.ml20{float:left;margin-left:10px;border-bottom:1px solid #ddd;padding-bottom:5px}
+.p10r0{padding:10px 0}
+.w96{margin:0 auto;width:96%}
+.decor{background:url(../graphics/bck-title.png) 0 18px repeat-x}
+#errorTipoT,#errorTitular,#errorNumT,#errorVigencia,#errorCCV,#errorPais,#errorCiudad,#errorDir,#errorCP,.msg{color:red;font-size:.8em;float:left}
+/*---------------- Layout  ------------------*/#headMobile{position:relative;padding:4px 0 12px;float:left;width:100%;background:url(../graphics/sprite.png) left -59px repeat-x;height:38px}
+#logoMobile img{width:220px;margin:2px 0 0 15px}
+#carritoMobile{background:url(../graphics/sprite.png) 15px -466px no-repeat;position:absolute;top:0;right:2px;width:40px;padding:18px 0 14px 15px;font-size:.9em;font-weight:700;text-indent:-55555px;border-left:1px solid #ccc}
+.subUl{display:none}
+#nav{float:left;width:100%}
+#main{border:1px solid #ccc;width:100%}
+.rama,#RamCatSub dd{float:left;width:91%;padding:10px 4%;border-bottom:1px solid #ccc;background:url(../graphics/arrow-right.png) 97% center no-repeat #eee;font-weight:700;color:#555;font-size:.9em}
+#envios{margin:0 auto;width:60%}
+#envios img{float:left;width:100%}
+#wrapInd{margin:0 auto;width:100%}
+#busquedas{background:url(../graphics/bck-gray-mobile.png) left bottom repeat-x #eee;float:left;width:100%;border:1px solid #ddd;border-radius:5px;padding:10px 0;margin:20px 0;position:relative}
+#busquedas{float:left;width:100%}
+#busquedas ul{float:left;width:100%;padding:10px 13px}
+#busquedas ul li{float:left;margin-right:10px;padding-right:10px;font-size:.8em}
+#busquedas ul li:last-child{border:none}
+#busquedas ul li:first-child{margin-right:0}
+#busquedas ul .rels{border-right:1px solid #CCC}
+#busquedas ul li a{color:#D93600;text-transform:lowercase}
+#busquedas ul li strong{font-weight:200}
+#cantBus{float:left;font-size:.8em;color:#999;padding:10px 10px 0 20px;font-family:helvetica Neue;margin-bottom:20px}
+#buscar{background:url(../graphics/bck-black-mobile.png) left bottom repeat-x #6D6D6D;border:1px solid #4E4E4E;position:absolute;right:-10px;padding:9px 2% 10px;color:#fff;margin-right:20px;-webkit-border-top-right-radius:5px;-webkit-border-bottom-right-radius:5px;-moz-border-radius-topright:5px;-moz-border-radius-bottomright:5px;border-top-right-radius:5px;border-bottom-right-radius:5px}
+#bckBuscar{float:left;width:90%;height:29px;padding:5px 0 5px 10px;-webkit-border-top-left-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-bottomleft:5px;border-top-left-radius:5px;border-bottom-left-radius:5px;border:1px solid #ddd}
+#formBuscar{margin:0 auto;width:100%;padding-left:10px}
+.temporada{float:left;width:100%;border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+.carousel li{float:left;width:20%}
+.wrapCar a{float:left;text-align:center;height:145px}
+.decor a{background-color:#fff;padding:0 10px}
+.wrapCar img{max-width:210px;padding:10px;border:1px solid #ccc;max-height:120px;background-color:#fff}
+.wrapCampaign{border:1px solid #ccc;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background-color:#eee;padding:20px;border-bottom:1px solid #ccc}
+.wrapCar strong{text-align:center;float:left;width:100%;margin-top:5px;font-size:.8em}
+.wrapCar em{text-align:center;float:left;width:100%;font-weight:700;margin-top:2px;font-size:1.1em}
+.camp img{float:left;width:100%;margin-bottom:20px}
+/*---------------- Listado Productos  ------------------*/#listChange li{float:left;width:98%;border-top:1px dotted #ccc;position:relative;padding:8px 0;background-color:#fff}
+#listChange li span img{float:left;max-height:80px;max-width:80px;border:1px solid #ccc;padding:1px;margin:0 10px}
+.title{text-transform:uppercase;display:block;font-weight:700;font-size:1em;font-weight:700;text-overflow:ellipsis;padding-bottom:5px;color:#333;margin-left:10px}
+#listChange strong,#listChange b{font-weight:700;font-size:.9em;color:#333}
+#listChange i,#listChange em{font-size:.9em}
+#listChange p{display:block;line-height:1.2em}
+#RamCatSub dt{float:left;width:100%;color:#c30;margin:10px 20px 5px}
+#RamCatSub dd{padding-left:10px}
+#RamCatSub dd a{float:left;padding-left:10px;width:97%}
+.precio{-webkit-border-radius:10px;-webkit-border-bottom-left-radius:0;-moz-border-radius:10px;-moz-border-radius-bottomleft:0;border-radius:10px;border-bottom-left-radius:0;background-color:#c30;color:#fff;font-weight:700;font-size:1.2em;padding:6px 10px;float:right;margin-right:20px;width:70px;text-align:center}
+.tachado{text-decoration:line-through}
+.vermas{border:none;background:#630d0d;background:0 to(#630d0d));background:0;background:0;background:0;background:0;padding:6px 30px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:rgba(0,0,0,1) 0 1px 0;-moz-box-shadow:rgba(0,0,0,1) 0 1px 0;box-shadow:rgba(0,0,0,1) 0 1px 0;text-shadow:rgba(0,0,0,.4) 0 1px 0;color:#FFF;text-decoration:none;vertical-align:middle;margin-top:5px;font-weight:200px;text-transform:uppercase;font-size:.9em}
+.vermas:hover{border-top-color:#631313;background:#631313;color:#fff}
+/*---------------Producto view mobile--------------------*/#fotoPro{float:left;width:100%}
+#infoPro h1{font-size:1.2em;font-weight:200;padding:10px 0;float:left;width:100%;color:#D93600;border-bottom:1px solid #ddd}
+#infoPro h2{font-size:1.2em;font-weight:200;float:left;width:100%;padding:10px 0}
+#infoPro .MarcaEdit{float:left;width:100%;font-size:.8em}
+#infoPro .MarcaEdit b{float:left;margin-right:10px}
+#infoPro .MarcaEdit em{color:#D93600}
+#finCom .bckWh{float:left;width:100%;padding:3px 10px;margin:10px 0 5px;font-size:1em;font-weight:200}
+#finCom em{font-style:normal;font-weight:700;text-align:right;width:170px}
+#finCom .narBotonBig,#finCompra,#accion .narBotonBig{background:url(http://www.plazadelatecnologia.com/assets/graphics/sprite.png) 0 -680px repeat-x;font-size:1.2em;float:left;padding:8px 34px;border:1px solid #333;border-radius:5px;font-weight:200;text-shadow:1px 1px 1px #000;color:#fff;border:1px solid #DF7E12;cursor:pointer;width:95%;text-align:center;margin-left:10px}
+/*------------------------carrito mobile------------------------*/
+#wrapInd h1,#wrapInd h2{padding:10px 0;margin-bottom:15px;border-bottom:1px solid #ccc;float:left;width:100%;text-align:center;font-weight:700}
+.evTab{margin:0 0 10px 10px;float:left;width:96%;border-bottom:1px solid #ccc;padding-bottom:10px}
+.evTab a{float:left;margin-right:10px}
+.evTab strong{float:left;width:145px;font-size:.9em;color:#666;height:70px}
+#contentCar .desCan{float:right}
+#contentCar .totPreCar,#contentCar .totNumCar{float:left;width:25%;font-weight:700;color:#666}
+#proCar .deleteItem{float:right;width:30px;font-size:.8em;margin-top:5px}
+/*------------------------contacto mobile------------------------*/
+#contacto ul{float: left;width: 100%;padding: 20px 0;}
+#contacto ul li{float: left;padding-bottom: 15px;}
+#contacto ul span{float: left;margin-right: 20px;}
+#contacto ul strong{font-weight: 700;color: #666;}
+#contacto ul p{float: left;width: 70%;}
+/*------------------------registro de carrito mobile------------------------*/
+#contentRegTwo,#contentCar, #contacto{margin:0 10px}
+#contentRegTwo p, #contacto p{float:left;font-size:.9em;color:#666}
+#contentRegTwo form fieldset,#contentCar form fieldset{float:left;padding:5px 0;width:100%}
+.regIn{float:left;padding:8px 10px;border:1px solid #ccc;width:90%;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;font-size:.9em;font-weight:200}
+.nBotonBig{background:url(http://www.plazadelatecnologia.com/assets/graphics/sprite.png) 0 -600px repeat-x;font-size:1.2em;float:left;padding:8px 34px;border:1px solid #333;border-radius:5px;font-weight:200;text-shadow:1px 1px 1px #000;color:#fff;width:96%}
+.selReg{font-size:.9em;border:1px solid #ccc;border-radius:5px;padding:8px 10px;-webkit-appearance:none;-moz-appearance:none;width:96%;color:#999;background-color:#FFF}
+.regDate{font-size:.9em;border:1px solid #ccc;border-radius:5px;padding:8px 10px;-webkit-appearance:none;-moz-appearance:none;background:url(http://www.plazadelatecnologia.com/assets/graphics/sprite.png) 155px -346px no-repeat;width:175px;color:#999}
+.regMes,.regAnio{font-size:.9em;border:1px solid #ccc;border-radius:5px;padding:8px 10px;-webkit-appearance:none;-moz-appearance:none;cursor:pointer;background:url(http://www.plazadelatecnologia.com/assets/graphics/sprite.png) 53px -346px no-repeat;width:70px;color:#999}
+/*------------------------entrega de carrito mobile------------------------*/
+#sitioEntrega li{list-style:circle;margin-left:20px;padding:5px 0;float:left;width:100%;color:#666}
+#sitioEntrega li a{font-size:.8em;color:#D93600}
+/*------------------------formas de pago mobile------------------------*/#datosPago{float:left;border-bottom:1px solid #ccc;padding-bottom:10px}
+#datosPago li{float:left;width:100%;font-size:.9em}
+#datosPago li strong{float:left;width:130px;text-align:right;margin-right:5px;color:#666}
+#opcionesPago{float:left;width:100%}
+#opcionesPago{padding:15px 0}
+#opcionesPago img{float:left;width:100%;padding:5px 0}

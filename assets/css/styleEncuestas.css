@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*---------------- reset  ------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td, .filters ul li p{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent; line-height:normal; font-size:100%; font-weight:normal;}
+body{font-family:Helvetica, "Trebuchet MS", Arial, sans-serif; overflow-x:hidden; background-color:#AE1D22;}
+img{color:#f4f4f2;}
+ol,ul,li{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+em{font-style:normal;}
+p{line-height:1.5em; }
+a{text-decoration:none; color:#c30;}
+#apeencuesta{background-color:#000033;}
+
+/*----------------Form Focus styles ------------------*/
+.focusField{ background:#EFF5FF; color:#000; }
+.idleField{background:#fff; color: #6F6F6F; border:solid 1px #DFDFDF;}
+input[type="text"], input[type="password"], input[type="select"], input[type="search"], input[type="file"], textarea, select {border-color:#C4C4C4 #E9E9E9 #E9E9E9 #C4C4C4; border-style:solid; border-width:1px; color:#888; padding:4px;}
+
+/*---------------- Generals  ------------------*/
+.clear{clear:both;}
+.fleft, #catLocatarios li{float:left;}
+.fright{float:right;}
+.center{text-align:center;}
+.pr{position:relative;}
+.dblock{display:block;}
+
+/*----------------Fonts ------------------*/
+.fSpecials{font-family:Georgia,Palatino,"Palatino Linotype",Times,"Times New Roman",serif; font-style:italic; color:#333;  font-size:1.2em; padding-left:13px;}
+.fDecor{font-size:.7em; color:#222; text-transform:uppercase; letter-spacing:.2em; padding:5px 0 4px 13px;}
+.decorFont{font-family:Georgia,Palatino,"Palatino Linotype",Times,"Times New Roman",serif; font-style:italic; text-decoration:none;}
+
+#encuestasPlazas p{background-color: #EEEEEE; border: 1px solid #CCCCCC; display: block; margin-bottom:9px; padding: 4px 0 4px 15px; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px;}
+#encuestasPlazas fieldset{display:block;}
+#encuestasPlazas label{text-transform:capitalize; font-size:.9em;}
+#encuestasPlazas ul li{display:block; padding-bottom:20px;}
+#encuestalogo{width:100%; margin:10px auto; }
+.textarea{width:600px; height:60px;}
+
+#loginAdmin{background:url(../graphics/encuesta-login.jpg) no-repeat center; width:501px; margin:100px auto 0; height:264px; }
+#loginAdminF{background:url(../graphics/encuestaFormulario.jpg) no-repeat center; width:501px; margin:100px auto 0; height:464px; }
+#loginAdmin form{padding:160px 0 0 140px;}
+#loginAdmin form label {padding:3px 10px 0; float:left;}
+.radius{width:230px; padding:5px 10px 0 0; text-align:right; float:left;}
+#entrarEnc{float:right; padding:15px 136px 0 0;}
+.block{display:block; padding:5px 0 5px 5px;}
+#msgLoginAdmin{width:243px; font-size:.6em; text-transform:uppercase; text-align:center; }
+#logoEncuestas{width:501px; margin:20px auto 0; display:block; }
+#enviarEncuesta{float:right; padding-right:30px;}
+#footerWrap{width:440px; font-size:.6em; text-transform:uppercase; color:#fff; margin:0 auto;}
+.error{color:#c30; text-decoration:blink; padding:0 10px; text-transform:uppercase;}
+#wrapEncu{width:93%px; font-size:.8em; padding:25px; background-color:#fff; -webkit-border-radius:15px; -moz-border-radius:15px; border-radius:15px;}
+#resultados{background-color:#fff; padding:10px; width:1240px; margin:0 180px;}
+#encuestasPlazas{width:100%; max-width: 712px; margin:0 auto;}
+.seleccion{padding-left:230px;}
+#resultados table{font-size:.7em; border:1px solid #ccc;}
+#resultados table td, #resultados table th{padding:7px 10px 2px 9px; border:1px solid #ccc; background-color:#fafafa;}
+.usuario{width:210px;}
+.respuestas{width:350px;}
+#resultados strong{padding:5px; display:block; font-size:.8em; width:1232px; margin-top:15px; background-color:#eee;}
+.porque{width:300px;}
+.cual{width:300px;}
+
+/*formulario usuarios ape*/
+
+#formularioUsuarios {padding:173px 0 0 112px; width:400px;}
+#formularioUsuarios p{padding:5px;}
+#formularioUsuarios label{float: left;width: 80px;text-align: right;padding-right: 10px;}
+#formularioUsuarios select{width:163px;}
+#entrarEncF{padding:15px 0 0 145px;}

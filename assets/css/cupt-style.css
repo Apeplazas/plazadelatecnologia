@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*---------------- reset  ------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td, .filters ul li p, figure{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent; line-height:normal; font-size:100%; font-weight:normal;}
+html{overflow-x:hidden;}
+body{ font-family: 'Raleway', sans-serif; background-color:#E5E5E5; }
+img{color:#f4f4f2;}
+ol,ul,li{list-style:none; font-weight:lighter; line-height:1.8em;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+em{font-style:normal;}
+p{line-height:1.8em; font-weight:lighter;}
+a{text-decoration:none; color:#333;}
+.100Pc{width:100%;}
+
+#Info{position: absolute; width: 464px; height:100%; color:#000}
+#Info p{padding: 2px 15px; text-align: justify;}
+h1{margin-bottom: 15px; font-size: 1.2em; font-weight: 600;}
+
+#registroForm{position:absolute; background-color: #0379C7; margin-left: 464px; height: 150%; width: 100%}
+#registro-cupt{width: 368px; float: left; padding: 40px 60px 20px 20px; margin: 8% 2% 2% 2%;; background-color: #1B5587; border-radius: 5px; -webkit-border-radius: 5px;}
+#Proyectos{width: 635px; float: left; padding: 40px 10px 20px; margin: 8% 2% 2% 2%;; background-color: #1B5587; border-radius: 5px; -webkit-border-radius: 5px; color:#FFFFFF; text-align:justify;}
+#registro-cupt p{color: #fff; font-weight: 600; margin-left: 35%;}
+
+#registro-cupt fieldset{}
+#registro-cupt select{background-color: #fafafa; width: 62%; -webkit-appearance: none; text-align: center; color: #666; padding-left: 10px; border: 1px solid #C2C2C2;}
+#registro-cupt textarea{width: 98%; margin-top: 10px; height: 100px; margin-bottom: 20px;}
+.labelTag {color: #FFFFFF; margin-top: 5px; float: left; width: 35%;}
+.Espec-file{color: #FFFFFF; margin: 5px 2px; float: left; font-size: .8em; width: 90%;}
+.labelComent{color: #FFFFFF; margin: 5px 2px; float: left; width: 90%;} 
+
+#mainMenu{background-color: #1B5587; color: #fff; position: absolute; left: -16px; top: 25px; width: 650px; padding: 1% 2%; box-shadow: 5px 8px 10px #222; -webkit-box-shadow: 5px 8px 10px #222;}
+#mainMenu a {color: #fff; text-transform: uppercase; margin-right: 10px;}
+
+.cuptForm{font-size: .8em; width: 57%; padding: 3px 3px 1px 13px; margin: 5px 2px 16px 0; background: #fff; float: left; border: 1px solid #c2c2c2;}
+.integrant{margin-left: 35%;}
+input[type="file"]{color: #fff;margin-bottom: 15px; }
+
+.cupt-enviar {background: #FFC926; border:1px solid #FADB4E; -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.6); box-shadow: inset 0 1px 0 rgba(120,200,230,.6); color: #FFF; width: 50%; float: right; font-size: 1em; height: 30px; padding: 0 12px 2px; color:#222;}
+
+#proyectos{width: 100%; }
+#Proyectos thead{text-align: center; border: 1px solid #0EA2D8; background-color: #2489CE; height: 15px; }
+#Proyectos th {height: 25px; border: 1px solid #0EA2D8; padding: 10px 5px 1px;}
+#Proyectos tbody{background-color: #333; text-align: center;}
+#Proyectos td{border: 1px solid #006EAB; padding: 5px 2px;}
+
