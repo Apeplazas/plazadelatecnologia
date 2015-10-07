@@ -1,7 +1,7 @@
 <div id="busquedas" itemscope itemtype="http://schema.org/WebSite">
-	<meta itemprop="url" content="http://www.plazadelatecnologia.com/"/>
-<form id="formBuscar" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" action="<?=base_url()?>busqueda_rapida" method="get" >
-	<meta itemprop="target" content="http://www.plazadelatecnologia.com/busqueda_rapida?query={query}"/>
+	<meta itemprop="url" content="http://www.plazadelatecnologia.com/" />
+<form id="formBuscar" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" action="<?=base_url()?>busqueda_rapida" method="get" />
+	<meta itemprop="target" content="http://www.plazadelatecnologia.com/busqueda_rapida?query={query}" />
   <fieldset>
     <label>Encuentra rapidamente</label>
     <!--<span>
@@ -13,9 +13,9 @@
 		    <option value="subcat-">elementos</option>
 	    </select>
     </span>-->
-    <input class="inputReg" id="bckBuscar" placeholder="Ejemplo: Tablets" itemprop="query-input" type="text" name="query"/>
-    <input  id="buscar" type="submit"  value="Buscar" title="Buscar" />
-    <input type="hidden" value="<?if(isset($hidden)) echo $hidden;?>" name="hidden" id="avanzada" />
+    <input class="inputReg" id="bckBuscar" placeholder="Ejemplo: Tablets" itemprop="query-input" type="text" name="query">
+    <input  id="buscar" type="submit"  value="Buscar" title="Buscar" >
+    <input type="hidden" value="<?if(isset($hidden)) echo $hidden;?>" name="hidden" id="avanzada" >
   </fieldset>
 </form>
 <? if(isset($relacionadas)):?>

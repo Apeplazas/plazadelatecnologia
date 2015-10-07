@@ -11,7 +11,9 @@
 </aside>
 <section id="busTotal" class="busqGenList">
 <h1 class="ml10 mb20"><?if($this->uri->segment(1) == 'ofertas'){foreach($localInfo as $value){echo 'Ofertas de '.$value->name;}}elseif($this->uri->segment(2) == 'busqueda_rapida'){echo 'Resultado de la busqueda';}?></h1>
+
 <div id="busqExtra">
+
 <form id="orderBy" action="<?=base_url()?>busqueda_rapida" method="get">
 	<label>Ordernar</label>
 	<select id="seleccion">
@@ -24,15 +26,17 @@
 	</select>
 	
 	<input type="hidden" id="order" name="order" value="" />
-	<input type="hidden" id="order" name="key" value="<?=$_GET['key'];?>" />
+	<input type="hidden" id="orderquery" name="query" value="<?=$_GET['query'];?>" />
 	
 </form>
+
 <span id="listType">
 	<em>Tipo de Lista: </em>
 	<button id="box" class="actBox">Cubo</button>
 	<button id="wide" class="inactWide">Lista</button>
 </span>
 </div>
+
 <span id="cantBus"><?=count($productos)?> RESULTADOS ENCONTRADOS</span>
 <ul id="listChange" class=" box" title="">
   <? foreach($productos as $listaPro):?>
