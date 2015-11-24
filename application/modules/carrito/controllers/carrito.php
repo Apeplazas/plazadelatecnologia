@@ -41,39 +41,57 @@ class Carrito extends MX_Controller {
 		$referencia = $this->input->post('folio');
 		$token = $this->input->post('token');
 		//var_dump($token);
-		$plazos = $this->input->post('installments');
 		
-		/*Compara si el valor de la variable plazas es string si es así la convierte en int*/
-		if(is_string($plazos)){
-			$plazo = (int) $plazos; 
-		}
+		$plazos = $this->input->post('installments');
+		$user		= $this->session->userdata('user');
+		$tipo 		= 'info_'.$user['tipoUsuario'];
+		$userinfo	= $this->data_model->$tipo($user['uid']);
+		
+		/*Compara si el valor de la variable plazos es string si es así la convierte en int*/
 		
 		$bancoEmisor = $this->input->post('issuer'); 
+		$totalCompra = $this->input->post('amount');
 		
+		if(is_string($plazos)){
+			$plazos = (int) $plazos; 
+		}
 		//echo is_bool($bancoEmisor) ? "si es bool" : "no es bool";
 		//echo $bancoEmisor;
 		//var_dump($bancoEmisor);
 				
-		$detalleCompra 	= $this->carrito_model->detalleCompra($referencia);
+		/*$detalleCompra 	= $this->carrito_model->detalleCompra($referencia);
 		$totalCompra = 0;
 		
 		foreach($detalleCompra as $detalle){
 			
 		 	$totalCompra += $detalle->ofertaPrecio;	
 			
-		}
+		}*/
+		    $opt 				= $this->uri->segment(1);
+			$op['opt'] 			= $this->data_model->cargarOptimizacion($opt);
+			//$op['info'] 		= array();
+			
+			$op['trans_referencia'] = 'Compra en Plaza de la Tecnología';
+        	$op['trans_error']		= 0;
+        	$op['trans_tipo'] 		= $metodo;
+			$op['trans_id'] 		= $referencia;
+			
+        	//$op['trans_msg'] 		= $resultado["payment_instructions"];
+			
+			$op['info']	= $userinfo;
+			
 		
 		$mp = $this->load->library("mercadopago/MP", "APP_USR-1415841976065959-092112-1174eaaec06082b4facbdb78c682c033__LD_LA__-191726900");
 		//$mp = new MP('TEST-1415841976065959-090719-f8eb671fe6ea63a4e6b2c983b344c33a__LA_LC__-191726900');
 		
 		$payment_data = array(
-						"transaction_amount" => $totalCompra,
+						"transaction_amount" => (float) $totalCompra,
 						"token" => "$token",
 						"description" => "Pago por el Folio ".$referencia,
 						"payer" => array (
 											"email" => "$email"
 										),
-						"installments" => $plazo, /*marca error si no es int*/
+						"installments" => $plazos, /*marca error si no es int*/
 						"payment_method_id" => "$metodo",
 						"issuer_id" => $bancoEmisor
 						);
@@ -82,20 +100,37 @@ class Carrito extends MX_Controller {
 $payment = $mp->post("/v1/payments", $payment_data);
 
 //var_dump($payment);
-		$fecha = getdate();
+		//$fecha = getdate();
+		/*Obtenemos el estatus de MP y lo enviamos como texto*/
+		if($payment['status'] == 201){
+			$estat = "pagado";
+			$op['status'] = $payment['status'];
+		}else{
+			$estat = "revisar";
+		}
 		$metodoPago = "mercadopago";
 		/*Actualiza datos de compra*/
-		$this->actualizaCompra($fecha, $payment['status'], $metodoPago, $plazo, $referencia);
+		$this->carrito_model->actualizaCompra($estat, $plazos, $referencia);
 		/*Proceso de envio de respuesta*/
-		$this->send_email($folioCompra,$referencia, $metodo, $plazos);
-		$this->borrar_carrito();
+		//$this->send_email("",$referencia, $metodo, $plazos);
+		
+		//$user	= $this->session->userdata('user');
+		
+		/*if ($user != '') {
+			$tipo = 'info_'.$user['tipoUsuario'];
+			$op['info']	= $this->data_model->$tipo($user);
+		}*/
+			
 		//var_dump($payment);
-		$this->layouts->simpleLayout('graciasMP',$payment);
+		//$op = '';
+		$this->borrar_carrito(); 
+		//$this->layouts->simpleLayout('graciasMP', $op);
+		$this->layouts->simpleLayout('graciasMP',$op);
 		
 	}
 	
 	
-	function convenienciaCarrito(){
+	function procesarComproPago(){  /*Cambio de nombre porque marcaba error, antes estaba como convenienciaCarrito - 29/oct/2015*/
 		
 		$formaPago = $this->input->post('formaPago');
 		$referencia = $this->input->post('folio');

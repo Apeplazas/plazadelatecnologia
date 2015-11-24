@@ -1,0 +1,857 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+body{
+	margin:0;
+	padding:0;
+}
+*/
+
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+   
+   
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    
+    cursor:pointer;
+	font-size:18px;
+	width:287px;
+	background-image:url("http://www.plazadelatecnologia.com/assets/graphics/BF2015/arrowdown.png");
+	background-repeat:no-repeat;
+	background-position:250px 9px;
+}
+
+#BF01{
+	display: block;
+	float: left;
+	width: 100%;
+	background-image: url("http://www.plazadelatecnologia.com/assets/graphics/BF2015/patron01.jpg");
+	height: 159px;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+	 
+
+}
+
+#BF01_s{
+	background-image: url("http://www.plazadelatecnologia.com/assets/graphics/BF2015/sombra01.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 10px;
+	width: 100%;
+}
+
+
+#BF01a{
+	display: block;
+	margin: 0 auto;
+	width: 1100px;
+	/* [disabled]float: left; */
+}
+
+.logobf{
+	display:block;
+	float:left;
+	margin-right:20px;
+}
+
+.sloganbf{
+	display:block;
+	float:left;
+	margin-right:20px;
+	width:471px;
+	height:67px;
+	margin-top:35px;
+}
+
+.separadobf{
+	display:block;
+	float:left;
+	margin-right:20px;
+	width:34px;
+}
+
+
+#div{
+	display:block;
+	clear:both;
+	height:0%;
+	width:100%;
+	font-size:0%;
+}
+
+#BF01a1{
+	display: block;
+	float: left;
+	width: 710px;
+	margin-right: 20px;
+}
+
+
+#BF01a2{
+	display: block;
+	float: left;
+	width: 350px;
+	color: #FFF;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+
+
+#BF01a2a{
+	display:block;
+	float:left;
+}
+
+#BF01a2b{
+	display:block;
+	float:left;
+	margin-top:10px;
+}
+	
+
+#BF02{
+	display: block;
+	float: left;
+	width: 100%;
+	/* [disabled]height:515px; */
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+
+}
+
+#BF02W{
+	width:1100px;
+	margin:0 auto;
+}
+
+#BF02IZ{
+	width:770px;
+	margin-right:20px;
+	float:left;
+}
+
+.bf02iz_tit{
+	width: 100%;
+	font-size: 45px;
+	color: #999;
+	display: block;
+	float: left;
+	margin-top: 25px;
+	/*margin-bottom: 40px;*/
+	text-transform:uppercase;
+	padding-left: 30px;
+}
+
+
+
+#BF02DER{
+	width: 300px;
+	float: right;
+	margin-top: 40px;
+}
+
+.bf02der_300x250{
+	width: 300px;
+	height:250px;
+	display: block;
+	float: left;
+	margin-bottom:52px;
+	
+}
+
+.bf02der_300x180{
+	width: 300px;
+	height:180px;
+	display: block;
+	float: left;
+	
+}
+
+
+#BF03
+{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+		
+}
+
+#BF03wrap{
+	width:1100px;
+	display:block;
+	margin:0 auto;
+}
+
+.BF03blk{
+	display: block;
+	float: left;
+	width: 340px;
+	height: 180px;
+	border: 1px solid #eee;
+	margin-right: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px; 
+}
+
+.BF03blkd{
+	display: block;
+	float: right;
+	width: 340px;
+	height: 180px;
+	border: 1px solid #eee;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+		
+}
+
+
+
+.BF03_wrap{
+	display:block;
+	float:left;
+	width:200px;
+		
+	}
+ .BF03_tit{
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 21px;
+	color: #E74692;
+	/*margin-bottom: 10px;
+	line-height: 24px;
+	min-height:50px;*/
+	text-transform: uppercase;
+	}
+  
+  
+  .BF03_empresa{
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	/*margin-bottom: 10px;
+	min-height:40px;*/
+	
+}
+  
+  
+   .BF03_des{
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	margin-bottom: 10px;
+	color:#999;
+	min-height:50px;
+	text-transform: uppercase;
+}
+
+	.precio{
+		color: #fff;
+	}
+   
+   .BF03_precio{
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 23px;
+	background-image: url("http://www.plazadelatecnologia.com/assets/graphics/BF2015/etiqueta.jpg");
+	background-repeat: no-repeat;
+	height: 40px;
+	color: #FFF;
+	width: 130px;
+    padding-top: 7px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.BF03_precio a{
+	color: #fff;
+}
+    
+
+.BF03_foto{
+	display: block;
+	float: right;
+	width: 135px;
+	margin-top: 66px; 
+	margin-right: 1px;
+}
+
+.BF03_foto img{
+	max-width: 130px;
+	max-height: 100px;
+}
+
+.bf03precio{
+	display: block;
+	float: left;
+	margin-top: 7px;
+	width: 130px;
+	height: 42px;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	color: #FFF;
+	background-image: url(http://www.plazadelatecnologia.com/assets/graphics/BF2015/etiqueta.jpg);
+}
+	
+
+
+
+#BF04
+{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 40px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 40px;
+}
+
+
+
+#BF04_WRAP{
+	display:block;
+    width:1100px;
+	margin:0 auto;
+}
+
+.BF04_seccion{
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 45px;
+	margin-bottom: 20px;
+	}
+
+.BF04_item{
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+	border-top: 1px solid #ccc;
+	width: 100%;
+	padding-top: 10px;
+}
+	
+.BF04_item_foto{
+	display: block;
+	float: left;
+	width: 165px;
+	margin-right: 40px;
+	max-width: 160px;
+	
+	}
+	
+.BF04_item_txt{
+		display:block;
+		float:left;
+		width:650px;
+	}
+	
+ .BF04_item_titulo{ font-size:21px; color:#F192BF; margin-bottom:5px; font-weight:bold;text-transform:uppercase;}
+ .BF04_item_empresa{
+	font-size: 18px;
+	margin-bottom: 5px;
+	text-transform:uppercase;
+	/* [disabled]font-weight:bold; */
+}
+.BF04_item_descripcion{ font-size:14px;text-transform:uppercase;}
+.BF04_item_precio{
+	display: block;
+	float: right;
+	width: 200px;
+	background-image: url("http://www.plazadelatecnologia.com/assets/graphics/BF2015/etiqueta.jpg");
+	height: 42px;
+	background-repeat: no-repeat;
+	text-transform:uppercase;
+		}
+
+
+
+
+#BF05{
+	float: left;
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	
+	
+}
+
+#BF05banner{
+	display: block;
+	/* [disabled]float:left; */
+	margin: 0 auto;
+	width: 1100px;
+}
+
+/*Estilo de fancy box*/
+#cuponbox{
+	display: block;
+	/*width: 700px;*/
+	/*height: 650px;*/
+	float: center;
+	background-image: url(img/imagen.jpg);
+	/*border: 1px solid #ccc;*/
+	
+	
+}
+
+#cuponbox_01{
+	display: block;
+	width: 100%;
+	float: left;
+	margin-bottom: 35px;
+	margin-top: 35px;
+	color: #fff;
+}
+
+.inpout{
+	border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background: #f00;
+    /*background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefcea), color-stop(100%,#f1da36));
+    background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 100%);
+    background: -o-linear-gradient(top, #fefcea 0%,#f1da36 100%);
+    background: -ms-linear-gradient(top, #fefcea 0%,#f1da36 100%);
+    background: linear-gradient(to bottom, #fefcea 0%,#f1da36 100%);*/
+    cursor: pointer;
+}
+
+#cuponbox_02{
+	display: block;
+	width: 100%;
+	float: left;
+	margin-bottom: 35px;
+}
+
+#cuponbox_03{
+	display: block;
+	width: 100%;
+	float: left;
+	/*margin-bottom: 35px;*/
+}
+
+#cuponbox_04{
+	display:block;
+	width:100%;
+	float:left;
+}
+
+.logos01{
+	display:block;
+	margin:0 auto;
+}
+
+.logos001{
+	/*background-image: url("http://www.plazadelatecnologia.com/assets/graphics/BF2015/obtener01.png") no-repeat;*/
+	width: 483px; 
+	height: 69px;
+	border:1px solid red;
+   	text-decoration:none;
+   	font-family:helvetica;
+    color:red;
+    
+   /* background:url(img.png) repeat-x;*/
+}
+
+#cuponbox_txt{
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	font-size: initial;
+}
+	
+.btn001{
+	height:50px;
+	width:350px;
+	border:1px solid #ccc;
+	display:block;
+	margin:0 auto;
+	margin-bottom:20px;
+	text-align:center;
+	font-size:18px;
+	cursor: hand;
+	color: #fff;
+}
+.btn01{
+	height:50px;
+	width:350px;
+	border:1px solid #ccc;
+	display:block;
+	margin:0 auto;
+	margin-bottom:20px;
+	text-align:center;
+	font-size:18px;
+	cursor: hand;
+	color: #000;
+}
+
+#dialog{
+	alignment-adjust: central;
+}
+
+
+.ui-dialog .ui-dialog-buttonpane button {
+    margin: .5em .4em .5em 0;
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    left: 91%;
+    background-color: #fff;
+   }
+   
+ .ui-widget-content {
+    border: 0px solid #aaaaaa;
+    background: #ffffff url("images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;
+    color: #222222;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    /* text-align: left; */
+    /* border-width: 1px 0 0 0; */
+    /* background-image: none; */
+    /* margin-top: .5em; */
+    /* padding: .3em 1em .5em .4em; */
+}
+/*Termina estilo de fancy box*/
+
+/*Estilos de Caracteristicas*/
+	
+#BF06{
+	display: block;
+	float: left;
+	width: 100%;
+	/* [disabled]height:515px; */
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+
+}
+
+#BF06W{
+	width: 1100px;
+	margin: 0 auto;
+	/*border: 1px solid #ccc;*/
+	padding-top: 25px;
+}
+
+#BF06LI{
+	display:block;
+	float:left;
+	width:755px;
+}
+       
+#BF06LD{
+	display: block;
+	float: right;
+	width: 302px;
+	height: 302px;
+	background-image: url(http://www.plazadelatecnologia.com/assets/graphics/BF2015/bg_formulariobf.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+	border: 1px dashed #000;
+	margin-right: 20px;
+	
+	
+	
+}
+
+#break{
+	display:block;
+	
+	height:0%;
+	font-size:0%;
+	width:100%;
+
+	clear:both;
+}
+
+#BF06LI1{ 
+display:block;
+width:400px;
+padding-right:10px;
+border-right:1px solid #eee;
+float:left;
+margin-left:35px;
+margin-right:20px;}
+
+#BF06LI1_txt{
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 30px;
+	color: #E74692;
+	margin-bottom: 10px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+
+
+#BF06LI1_empresa{
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 21px;
+	margin-bottom: 10px;
+
+	
+	}
+
+#BF06LI1_resumen{
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color:#999;
+	
+	
+	
+	}
+#BF06LT1_redes{
+	display:block;
+	float:left;
+	width:100%;
+	margin-bottom: 10px;
+}
+	
+	#BF06LI_descripcion{
+	display: block;
+	float: left;
+	width: 700px;
+	margin-left: 35px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	line-height: 18px;
+	font-size: 15px;
+	}
+	
+	
+
+
+#BF06LI2{
+	display:block;
+	max-width:270px;
+	float:left;
+}
+#imagendet{
+	    max-width: 305px;
+}
+
+#BF06LD_tit{
+	display: block;
+	width: 100px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 115px;
+	margin-top: 40px;
+	margin-bottom: 12px;
+	float:left;
+}
+
+#BF06LD_camponombre{
+	display: block;
+	width: 240px;
+	margin-left: 32px;
+	float: left;
+	margin-bottom: 12px;
+}
+
+
+#BF06LD_campoemail{
+	display: block;
+	width: 240px;
+	margin-left: 32px;
+	float: left;
+	margin-bottom: 20px;
+}
+#BF06LD_boton{
+	border:1px solid #ccc;
+	height:45px;
+	width:82%;
+	alignment-adjust:center;
+	margin-left: 33px;
+	text-align: center;
+	background-image: url(http://www.plazadelatecnologia.com/assets/graphics/BF2015/crearcupon.jpg);
+	cursor: pointer;
+}
+
+.campocupon{
+	/*display:block;*/
+	border:1px solid #ccc;
+	height:45px;
+	width:80%;
+	alignment-adjust:center;
+	margin: 8px;
+	margin-left: 33px;
+	text-align: center;
+}
+
+.stickyfloat_element{
+  position: fixed;
+  bottom: 0px;
+  width:100% ;
+  height: 90px;
+  line-height: 50px;
+  left:0;
+  border: 3px #ccc;
+  background: #ffffff;
+}
+
+/*Terminan estilos de caracteristicas*/
+
+/*--------------fancybox mobile----------------*/
+#mcuponbox{
+	display: block;
+	/*width: 700px;*/
+	/*height: 650px;*/
+	float: center;
+	background-image: url(img/imagen.jpg);
+	/*border: 1px solid #ccc;*/
+}
+
+#mcuponbox_01{
+	display: block;
+	/*width: 100%;*/
+	float: left;
+	margin-bottom: 18px;
+	margin-top: 18px;
+	color: #fff;
+}
+
+#mcuponbox_01 img{
+	width: 100%;
+}
+
+.minpout{
+	border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background: #f00;
+    cursor: pointer;
+}
+
+#mcuponbox_02{
+	display: block;
+	width: 100%;
+	/*float: left;*/
+	margin-bottom: 8px;
+}
+
+#mcuponbox_02 img{
+	width: 100%;
+}
+
+#mcuponbox_03{
+	display: block;
+	width: 100%;
+	float: left;
+	/*margin-bottom: 35px;*/
+}
+
+#mcuponbox_04{ 
+	display:block;
+	width:100%;
+	/*float:left;*/
+}
+
+
+.mlogos001{
+	width: 483px; 
+	height: 69px;
+	border:1px solid red;
+   	text-decoration:none;
+   	font-family:helvetica;
+    color:red;
+}
+
+#mcuponbox_txt{
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+	font-size: .5em;
+}
+	
+.mbtn001{
+	height:50px;
+	width:180px;
+	border:1px solid #ccc;
+	display:block;
+	margin:0 auto;
+	margin-bottom:10px;
+	text-align:center;
+	font-size:7px;
+	cursor: hand;
+	color: #fff;
+}
+.mbtn01{
+	height:30px;
+	width:180px;
+	border:1px solid #ccc;
+	display:block;
+	margin:0 auto;
+	margin-bottom:10px;
+	text-align:center;
+	font-size:13px;
+	cursor: hand;
+	color: #000;
+}
+
+#mdialog{
+	alignment-adjust: central;
+}
+
+.bboton{
+	position: absolute;
+	top: 67%;
+	left: 60%;
+}
+
+ .ui-dialog .ui-dialog-buttonpane button {
+    margin: .5em .4em .5em 0;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 91%;
+    background-color: #fff;
+  } 
+   
+ .ui-widget-content {
+    border: 0px solid #aaaaaa;
+    background: #ffffff url("images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;
+    color: #222222;
+}
+
+/*termina mfancybox*/
+
+
+.ui-dialog{
+	z-index:9999 !important;
+}

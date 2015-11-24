@@ -384,4 +384,44 @@ else window.addEventListener('load', __ldinsp, false);
 
 <!-- End Inspectlet Embed Code -->
 
+  <!--FancyBox--
+    <div id="dialog">
+		<div  id='cuponbox'>
+		  <img src="http://www.plazadelatecnologia.com/assets/graphics/BF2015/banner.jpg" />
+		  <a href="http://www.plazadelatecnologia.com/buenfin"><img class="bboton" src="http://www.plazadelatecnologia.com/assets/graphics/BF2015/bbanner.png" /></a>
+		 </div>
+    </div>
+    <!--Termina FancyBox--
+<a href="http://www.plazadelatecnologia.com/buenfin" class="stickyfloat_element">
+	<center><img src="http://www.plazadelatecnologia.com/assets/graphics/BF2015/banner_fixed.jpg"></center>
+</a>-->
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <!--<link rel="stylesheet" href="/resources/demos/style.css">--> 
+   <script>
+   $(function () {
+			$("#dialog").dialog({
+							autoOpen: true,
+							modal: true,
+							width: 700,
+							closeOnEscape: true,
+							 closeText: "hide",
+							 hide: {effect: "fadeOut", duration: 1500},
+							 open: function(event, ui){
+								     setTimeout("$('#dialog').dialog('close')",7000);
+								    },
+							 buttons: {
+							                X: function () {
+							                    $(this).dialog("close");
+							                }
+							           } 
+							});
+			$(".ui-dialog-titlebar").hide();
+});
+  </script>
+  
+
+
 </div>

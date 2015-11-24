@@ -32,6 +32,13 @@ class Ofertas_model extends CI_Model {
 		return $data;
 	}
 	
+	function insertaUsuarios($usuario, $mail){
+		$data = array(); 
+		$q = $this->db->query("INSERT INTO buenfin_mailing (nombre, correo, sitio) VALUES ('$usuario', '$mail', 'm')");
+		
+		return count($q);
+	}
+	
 	function marcas($categoria){
 		$data = array(); 
 		$q = $this->db->query("SELECT marca, COUNT(lo.ofertaID) as total, marcaUrl 

@@ -92,12 +92,13 @@
 		    <fieldset>
 		    	<input type="hidden" id="amount" name="amount" value="<?=$compra[0]->total;?>" />
 		    	<input id="email" name="email" type="hidden" value="<?=$user['email'];?>"/>
-		        <input type="hidden" name="folio" value="<?=$folio; ?>" />
+		    	<input id="user" name="user" type="hidden" value="<?=$user['uid']; ?>" />
+		        <input id= "folio" type="hidden" name="folio" value="<?= $folio; ?>" />
 		        <input class="nBotonBig fwlight" type="submit" value="Realizar Pago!" />
 		    </fieldset>
 	    </div>
 	</form>
-	
+	<!--Termina formulario MP-->
 	<form style="display: none;" method="post" id="formPayu">
 		<h2 id="tituloTarjetas"></h2>
 		<span class="card-errors"></span> 

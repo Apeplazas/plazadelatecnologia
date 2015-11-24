@@ -24,7 +24,7 @@ function is_mobile(){
 <meta property="og:title" content="<?=$productoInfo->ofertaTitulo?>" />
 <meta property="og:url" content="<?=base_url()?><?=$this->uri->uri_string?>" />
 <meta property="og:description" content="<?=$productoInfo->ofertaDescripcion?>" />
-<meta property="og:image" content="<?=base_url()?>ofertasLocatarios/<?= $productoInfo->ofertaImagen?>" />
+<!--<meta property="og:image" content="<?=base_url()?>ofertasLocatarios/<?= $productoInfo->ofertaImagen?>" />-->
 <? endforeach; endif;?>
 
 <link type="text/css" href="<?=base_url()?>assets/css/style.css" rel="stylesheet"/>

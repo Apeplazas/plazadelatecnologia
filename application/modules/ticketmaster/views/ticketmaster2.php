@@ -43,6 +43,7 @@ Local 254 | Blvrd Manuel Ávila Camacho 681, Col. Periodistas, Ciudad de México
    
    
     </table>
+    
 <table width="1000" cellspacing="0">
     <tr>
       <th class='evento'>EVENTO</th>
@@ -58,87 +59,100 @@ Local 254 | Blvrd Manuel Ávila Camacho 681, Col. Periodistas, Ciudad de México
     
     
     
-   <tr>
-      <td class='eventos'>MENTIRAS</td>
-      <td>TEATRO MÉXICO</td>
-      <td>M-TIPO <BR> A PARTIR DE FILA H</td>
-      <td>PLANTA BAJA</td>
-      <td>SÁBADO 20:30 Y DOMINGO 13:30 HRS</td>
-      <td class='eventos'><em>$712.00</em></td>
+    
+	
+	
+<tr>
+      <td class='eventos'>LA MONARQUÍA CASI PERFECA EL PANFLETO DEL REY Y SU LACAYO </td>
+      <td>FORO LUCERNA</td>
+      <td>W TIPO</td>
+      <td>LUCERN</td>
+      <td>VIERNES 20:45, SÁBADO 18:30, DOMINGO 19:30</td>
+      <td class='eventos'><em>$246.00</em></td>
+      <td class='eventos'><em>$119.00</em></td>
+     </tr>						
+						
+		  
+						
+						
+	
+	
+	
+<tr>
+      <td class='eventos'>LAS MUCHACHAS DEL CLUB</td>
+      <td>TEATRO LIBANÉS</td>
+      <td>N-BUM</td>
+      <td>VIP</td>
+      <td>VIERNES 19:30 Y 21:30 / SÁBADO 18:30 Y 20:30 /DOMINGO 17:30 Y 19:30</td>
+      <td class='eventos'><em>$605.00</em></td>
+      <td class='eventos'><em>$349.00</em></td>
+     </tr>						
+						
+		  
+						
+						
+	
+	
+	
+<tr>
+      <td class='eventos'>CIRCO DE LOS HERRORES</td>
+      <td>GRAN TEATRO MOLIERE</td>
+      <td>B-BUM</td>
+      <td>CREMATORIO</td>
+      <td>EGTM1112 20:30 HRS,EGTMN15N 21:00 HRS,EGTM1116 17:00 HRS,EGTM1119 20:30 HRS.</td>
+      <td class='eventos'><em>$435.00</em></td>
       <td class='eventos'><em>$219.00</em></td>
      </tr>						
 						
 		  
 						
-		
+						
 	
 	
 	
 <tr>
-      <td class='eventos'>LOCOS POR EL TÉ</td>
-      <td>TEATRO FERNANDO SOLER</td>
+      <td class='eventos'>MENTIRAS</td>
+      <td>TEATRO MÉXICO</td>
       <td>M-TIPO</td>
-      <td>VIP / PREF / MEZZ</td>
-      <td>DOMINGO 13:30 HRS</td>
-      <td class='eventos'><em>$660.00,$522.50, $412.50</em></td>
-      <td class='eventos'><em>$319,00 $169.00 $169.00</em></td>
+      <td>PLANTA BAJA <br />
+        apartir de la fila H</td>
+      <td>SÁBADOS 20:30 HRS Y DOMINGOS 13:30 HRS</td>
+      <td class='eventos'><em>$712.00</em></td>
+      <td class='eventos'><em>$219.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
-      <td class='eventos'>LOS BONOBOS </td>
-      <td>TEATRO BANAMEX SANTA FE</td>
+        
+        <tr>
+      <td class='eventos'>LOS BONOBOS</td>
+      <td>TEATRO SANTA FE</td>
       <td>M-TIPO</td>
       <td>LUNETA</td>
-      <td>VIERNES 19:00 Y DOMINGO 18:00 HRS</td>
+      <td>VIERNES 19:00 HRS Y DOMINGOS 18:00 HRS</td>
       <td class='eventos'><em>$660.00</em></td>
       <td class='eventos'><em>$319.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
-      <td class='eventos'>BUSCO AL HOMBRE DE MI VIDA MARIDO YA TUVE</td>
+         <tr>
+      <td class='eventos'>BUSCO AL HOMBRE DE MI VIDA</td>
       <td>TEATRO OFELIA</td>
       <td>B-TIPO</td>
-      <td>LUNETA</td>
-      <td>JUEVES 19:00 HRS</td>
+      <td>LUNETA </td>
+      <td>SÓLO LOS JUEVES 19:00HRS</td>
       <td class='eventos'><em>$385.00</em></td>
-      <td class='eventos'><em>$119.00</em></td>
+      <td class='eventos'><em>$169.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
-      <td class='eventos'>SOLTERO CASADO VIUDO Y DIVORCIADO</td>
+         <tr>
+      <td class='eventos'>SOLTERO CASADO Y VIUDO</td>
       <td>TEATRO TEPEYAC</td>
       <td>B-TIPO</td>
       <td>PREFERENTE</td>
-      <td>TODAS LAS FUNCIONES</td>
+      <td>TODAS LAS FUNCIONES </td>
       <td class='eventos'><em>$385.00</em></td>
       <td class='eventos'><em>$119.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
+         <tr>
       <td class='eventos'>LA SIRENITA</td>
       <td>TEATRO TEPEYAC</td>
       <td>B-TIPO</td>
@@ -147,15 +161,9 @@ Local 254 | Blvrd Manuel Ávila Camacho 681, Col. Periodistas, Ciudad de México
       <td class='eventos'><em>$275.00</em></td>
       <td class='eventos'><em>$119.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
-      <td class='eventos'>EL MAGO DE OZ</td>
+         <tr>
+      <td class='eventos'>MAGO DE OZ </td>
       <td>TEATRO OFELIA</td>
       <td>B-TIPO</td>
       <td>LUNETA</td>
@@ -163,15 +171,9 @@ Local 254 | Blvrd Manuel Ávila Camacho 681, Col. Periodistas, Ciudad de México
       <td class='eventos'><em>$275.00</em></td>
       <td class='eventos'><em>$119.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
-      <td class='eventos'>EL MAGO DE OZ</td>
+         <tr>
+      <td class='eventos'>MAGO DE OZ </td>
       <td>TEATRO TEPEYAC</td>
       <td>B-TIPO</td>
       <td>PREFERENTE</td>
@@ -179,62 +181,38 @@ Local 254 | Blvrd Manuel Ávila Camacho 681, Col. Periodistas, Ciudad de México
       <td class='eventos'><em>$275.00</em></td>
       <td class='eventos'><em>$119.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
-      <td class='eventos'>CENICIENTA</td>
+         <tr>
+      <td class='eventos'>PRÍNCIPE AZUL SE BUSCA, SAPOS</td>
       <td>TEATRO TEPEYAC</td>
       <td>B-TIPO</td>
       <td>PREFERENTE</td>
       <td>TODAS LAS FUNCIONES</td>
-      <td class='eventos'><em>$275.00</em></td>
+      <td class='eventos'><em>$300.00</em></td>
       <td class='eventos'><em>$119.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
-      <td class='eventos'>PRÍNCIPE AZUL SE BUSCA, SAPOS ABSTENERSE</td>
-      <td>TEATRO TEPEYAC</td>
-      <td>B-TIPO</td>
-      <td>PREFERENTE</td>
-      <td>TODAS LAS FUNCIONES</td>
-      <td class='eventos'><em>$330.00</em></td>
-      <td class='eventos'><em>$119.00</em></td>
-     </tr>						
-						
-		  
-						
-		
-	
-	
-	
-<tr>
-      <td class='eventos'>LOS TRES COCHINITOS Y EL LOBO FEROZ</td>
-      <td>TEATRO OFELIA</td>
+         <tr>
+      <td class='eventos'>LOS TRES COCHINITOS</td>
+      <td>TEATRO OFELIA </td>
       <td>B-TIPO</td>
       <td>LUNETA</td>
       <td>TODAS LAS FUNCIONES</td>
       <td class='eventos'><em>$275.00</em></td>
       <td class='eventos'><em>$119.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
+         <tr>
+      <td class='eventos'>ENTONANDO LOS MUSICALES BROADWAY</td>
+      <td>TEATRO TEPEYAC</td>
+      <td>B-TIPO</td>
+      <td>PREFERENTE</td>
+      <td>TODAS LAS FUNCIONES</td>
+      <td class='eventos'><em>$220.00</em></td>
+      <td class='eventos'><em>$119.00</em></td>
+     </tr>						
+		
+         <tr>
       <td class='eventos'>MONSTRUOS EL MUSICAL</td>
       <td>TEATRO TEPEYAC</td>
       <td>B-TIPO</td>
@@ -243,56 +221,44 @@ Local 254 | Blvrd Manuel Ávila Camacho 681, Col. Periodistas, Ciudad de México
       <td class='eventos'><em>$330.00</em></td>
       <td class='eventos'><em>$144.00</em></td>
      </tr>						
-						
-		  
-						
 		
-	
-	
-	
-<tr>
-      <td class='eventos'>ENTONANDO LOS MUSICALES DE BRODWAY </td>
+        <tr>
+      <td class='eventos'>|SOLTERO CASADO Y VIUDO</td>
+      <td>TEATRO OFELIA</td>
+      <td>B-TIPO</td>
+      <td>LUNETA</td>
+      <td>TODAS LAS FUNCIONES</td>
+      <td class='eventos'><em>$385.00</em></td>
+      <td class='eventos'><em>$119.00</em></td>
+     </tr>	
+     <tr>
+      <td class='eventos'>EL ROCK DE LOS 60</td>
       <td>TEATRO TEPEYAC</td>
       <td>B-TIPO</td>
       <td>PREFERENTE</td>
       <td>TODAS LAS FUNCIONES</td>
-      <td class='eventos'><em>$220.00</em></td>
+      <td class='eventos'><em>$255.00</em></td>
       <td class='eventos'><em>$119.00</em></td>
-     </tr>						
-						
-		  
-						
-		
-	
-	
-	
-<tr>
-      <td class='eventos'>PEPE AGUILAR</td>
-      <td>AUDITORIO NACIONAL</td>
-      <td>W-BUM</td>
-      <td>PISO 1 / PISO 2</td>
-      <td>EAN0808</td>
-      <td class='eventos'><em>$665.00,$377.00</em></td>
-      <td class='eventos'><em>$294.00,$169.00</em></td>
-     </tr>						
-						
-		  
-						
-		
-	
-	
-	
-<tr>
-      <td class='eventos'>INFIDELIDADES</td>
-      <td>TEATRO LIBANES</td>
-      <td>N-BUM</td>
-      <td>VIP / PREFERENTE</td>
-      <td>VIERNES 19:30 ,21:30; SÁBADO 18:30, 20:30, DOMINGO17:30 Y 19:30</td>
-      <td class='eventos'><em>$660.00,$522.50</em></td>
-      <td class='eventos'><em>$439.00,$351.50
-</em></td>
-     </tr>						
-								
+     </tr>
+     <tr>
+      <td class='eventos'>LO MEJOR DE LAS SONORAS</td>
+      <td>TEATRO TEPEYAC</td>
+      <td>B-TIPO</td>
+      <td>PREFERENTE</td>
+      <td>TODAS LAS FUNCIONES</td>
+      <td class='eventos'><em>$255.00</em></td>
+      <td class='eventos'><em>$119.00</em></td>
+     </tr>
+     <tr>
+      <td class='eventos'></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td class='eventos'>&nbsp;</td>
+      <td class='eventos'>&nbsp;</td>
+     </tr>
+     					
 		
    
     </table>

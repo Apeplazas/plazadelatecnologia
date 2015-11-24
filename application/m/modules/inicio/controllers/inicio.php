@@ -18,11 +18,49 @@ class Inicio extends MX_Controller {
         	
 		$this->layouts->add_include('assets/js/jquery-ui.js')
 					  ->add_include('assets/js/idangerous.swiper-2.1.min.js')
-					  ->add_include('assets/css/idangerous.swiper.css');
+					  ->add_include('assets/css/idangerous.swiper.css')
+					  ->add_include('assets/css/bfstyle.css');
 					  
 		//Vista//
 		$this->layouts->mobile('inicio-mobile-view', $op);
 	}
+	
+	function gracias_cupon(){
+		$usuario = $this->input->post('nombre');
+		$correo = $this->input->post('email');
+		
+		$query = $this->data_model->insertaUsuarios($usuario, $correo);
+		
+		if($query > 0){
+		//Optimizacion y conexion de tags para SEO//
+		$opt         		= $this->uri->segment(1);
+		$op['opt']    		= $this->data_model->cargarOptimizacion($opt);
+		
+		//validacion para identificar tipo de usuario y desglosar info
+		$user				= $this->session->userdata('user');
+		$op['info']			= array();
+		
+		if ($user['uid'] != '') {
+			$tipo = 'info_'.$user['tipoUsuario'];
+			$op['info']	= $this->data_model->$tipo($user['uid']);
+		}
+		
+		//Vista//
+		$this->layouts->mobile('gracias-cupon-view' ,$op);
+		}else{
+			redirect('inicio');
+		}
+		//var_dump($query);
+		
+		/*if(count($query) > 0){
+			redirect('gracias/cupon');
+		}else{
+			redirect('buenfin');
+		}
+		redirect('buenfin');*/
+		
+	}
+	
 	
 	function busqueda_rapida()
 	{

@@ -1,4 +1,3 @@
-<?php var_dump($payment); ?>
 <!-- Google Code for VentaConekta Conversion Page -->
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -19,20 +18,15 @@ var google_remarketing_only = false;
 </noscript>
 <img src="//cdsusa.veinteractive.com/DataReceiverService.asmx/Pixel?journeycode=ADBE8577-0CFE-4C2D-A096-AD1E7624180C" width="1" height="1"/>
 <div id="contentCar" >
-<h1>Pago Con Tarjeta</h1>
+<h1>Pago Bancario</h1>
 	<div class="msgpaypal">
-	<? if(($payment['status'] == 201)):?>
+	<? if($status != 201):
+		print_r($mensajeError);
+	else:?>
 	<span><img src="<?=base_url()?>assets/graphics/palomita.png" alt="Ok" /></span>
 	<h3>TU PAGO FUE EXITOSO</h3>
 	<div class="sep">
-		<p>El detalle de tu compra fue enviada por correo electronico.</p>
-		<p>Recuerda que toda la información que proporciones es absolutamente confidencial.</p>
-	</div>
-	<?php else:?>
-	<span><img src="<?=base_url()?>assets/graphics/palomita.png" alt="Ok" /></span>
-	<h3>TU PAGO FUE EXITOSO</h3>
-	<div class="sep">
-		<p>El detalle de tu compra fue enviada por correo electronico.</p>
+		<p>El detalle de tu compra fue mandada por correo electronico.</p>
 		<p>Recuerda que toda la información que proporciones es absolutamente confidencial.</p>
 	</div>
 	<? endif; ?>

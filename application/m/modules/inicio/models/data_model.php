@@ -20,6 +20,13 @@ class Data_model extends CI_Model {
 		return $data;
 	}
 	
+	function insertaUsuarios($usuario, $mail){
+		$data = array(); 
+		$q = $this->db->query("INSERT INTO buenfin_mailing (nombre, correo, sitio) VALUES ('$usuario', '$mail', 'm')");
+		
+		return count($q);
+	}
+	
 	function cargarMenu($menuType, $typeSubmenu){
 		$data = array(); 
 		$q = $this->db->query("SELECT * FROM enlaces 
@@ -36,6 +43,8 @@ class Data_model extends CI_Model {
 		}
 		return $data;
 	}
+	
+	
 	
 	function cargarSkyHome($url){
 		$data = array(); 

@@ -41,4 +41,63 @@
 	</div>
 </div>
 
+<!--FancyBox--
+    <div id="mdialog"> 
+		<DIV  id='mcuponbox'>
+		  <div id='mcuponbox_01'>
+		  <img src="http://www.plazadelatecnologia.com/assets/graphics/BF2015/logos01.png" class="mlogos01" />
+		  </div>
+		  <div id='mcuponbox_02'>
+		  <img src="http://www.plazadelatecnologia.com/assets/graphics/BF2015/recibe01.png" class="mlogos01" />
+		  </div>
+		  <div id='mcuponbox_03'>
+		  	<form id="buenfin" name="buenfin" action="<?base_url()?>/inicio/gracias_cupon" method="post"> 
+		  		<input id="nombre" type="text" pattern="[a-zA-Z ]+" name="nombre" placeholder="NOMBRE" class="mbtn01" required="required" />
+		  		<input id="email" type="email" name="email" placeholder="E-MAIL" class='mbtn01' required="required" />
+		  		<input type="submit" class="mbtn001 idleField minpout" value="RECIBIR PROMO" />
+		   </form>
+		  </div>
+		  <div id='mcuponbox_04'><br />
+		  <div id='mcuponbox_txt'> 
+		  Tus datos estarán seguros y no serán compatidos con nadie, además puedes desuscribirte cuando tú lo desees
+		  </div>
+		  </div>
+		 </DIV>
+    </div>
+    <!--Termina FancyBox-->
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <!--<link rel="stylesheet" href="/resources/demos/style.css">--> 
+   <script>
+   $(function () {
+			$("#mdialog").dialog({
+							autoOpen: true,
+							modal: true,
+							width: 300,
+							closeOnEscape: true,
+							 closeText: "hide",
+							 
+							 buttons: {
+							                X: function () {
+							                    $(this).dialog("close");
+							                }
+							           } 
+							});
+			$(".ui-dialog-titlebar").hide();
+});
+$("#buenfin").submit(function () {  
+    if($("#nombre").val().length < 1) {  
+        alert("El nombre es obligatorio");  
+        return false;  
+    }
+    if($("#email").val().length < 1){
+    	alert("El Email es obligatorio");
+    	return false;
+    }  
+    return true;  
+});  
+
+  </script>
 

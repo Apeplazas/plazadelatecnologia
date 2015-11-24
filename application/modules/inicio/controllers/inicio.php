@@ -63,7 +63,9 @@ class Inicio extends MX_Controller {
 					  ->add_include('assets/js/ytmenu.js')
 					  ->add_include('assets/css/three-d-skin.css')
 					  ->add_include('assets/css/touchcarousel.css')
-					  ->add_include('assets/js/jquery.cookie.js');
+					  ->add_include('assets/js/jquery.cookie.js')
+					  ->add_include('assets/css/bfstyle.css')
+					  ->add_include('assets/css/buenfin.css'); 
 		
 		//Vista//
 		$this->layouts->index('index-view' ,$op);

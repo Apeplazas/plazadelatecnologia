@@ -297,11 +297,13 @@ class Carrito_model extends CI_Model {
 
 	}	
 
-	function actualizaCompra($fechaPago, $status, $metodoPago, $plazo,$folio){
+	function actualizaCompra($status, $plazos, $folio){
 		$q = $this->db->query("UPDATE compras 
-								SET fechaPago = '$fechaPago', status = '$status', metodoPago = '$metodoPago', pago_diferido = $plazo 
+								SET fechaPago = curdate(), status = '$status', metodoPago = 'mercadopago', pago_diferido = $plazos
 								WHERE folio = '$folio'");
-		//return	$q;
+		//var_dump($q);
+		
+		 //$q->free_result();  
 	}
 
 	function detalleCompra($folio){
